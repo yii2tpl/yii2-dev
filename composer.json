@@ -33,7 +33,9 @@
 		"yii2bundle/yii2-rest": "dev-master",
 		"yii2bundle/yii2-summary": "dev-master",
 		"yii2bundle/yii2-ubuntu-font": "dev-master",
-		"yii2bundle/yii2-validator": "dev-master"
+		"yii2bundle/yii2-validator": "dev-master",
+		"yii2game/yii2-engine": "dev-master",
+		"yii2game/yii2-evo": "dev-master"
 	},
 	"require-dev": {
 		"yii2bundle/yii2-guide": "dev-master",
@@ -198,6 +200,14 @@
 		{
 			"type": "git",
 			"url": "git@github.com:yii2bundle/guide-team.git"
+		},
+		{
+			"type": "git",
+			"url": "git@github.com:yii2game/yii2-engine.git"
+		},
+		{
+			"type": "git",
+			"url": "git@github.com:yii2game/yii2-evo.git"
 		}
 	]
 }

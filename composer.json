@@ -23,7 +23,6 @@
 		"yii2bundle/yii2-geo": "dev-master",
 		"yii2bundle/yii2-init": "dev-master",
 		"yii2bundle/yii2-lang": "dev-master",
-		"yii2bundle/yii2-markdown": "dev-master",
 		"yii2bundle/yii2-navigation": "dev-master",
 		"yii2bundle/yii2-notify": "dev-master",
 		"yii2bundle/yii2-offline": "dev-master",
@@ -33,7 +32,6 @@
 		"yii2bundle/yii2-rest": "dev-master",
 		"yii2bundle/yii2-summary": "dev-master",
 		"yii2bundle/yii2-ubuntu-font": "dev-master",
-		"yii2bundle/yii2-validator": "dev-master",
 		"yii2game/yii2-engine": "dev-master",
 		"yii2game/yii2-evo": "dev-master"
 	},

@@ -8,18 +8,19 @@
 	"type": "project",
 	"minimum-stability": "stable",
 	"require": {
+		"yii2rails/yii2-app": "dev-master",
+		"yii2rails/yii2-domain": "dev-master",
+		"yii2rails/yii2-extension": "dev-master",
+
 		"yii2bundle/yii2-account": "dev-master",
 		"yii2bundle/yii2-ai": "dev-master",
-		"yii2bundle/yii2-app": "dev-master",
 		"yii2bundle/yii2-application-template": "dev-master",
 		"yii2bundle/yii2-article": "dev-master",
 		"yii2bundle/yii2-cleaner": "dev-master",
 		"yii2bundle/yii2-dashboard": "dev-master",
 		"yii2bundle/yii2-db": "dev-master",
-		"yii2bundle/yii2-domain": "dev-master",
 		"yii2bundle/yii2-encrypt": "dev-master",
 		"yii2bundle/yii2-error": "dev-master",
-		"yii2bundle/yii2-extension": "dev-master",
 		"yii2bundle/yii2-geo": "dev-master",
 		"yii2bundle/yii2-init": "dev-master",
 		"yii2bundle/yii2-lang": "dev-master",
@@ -69,143 +70,143 @@
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-account.git"
+			"url": "https://github.com/yii2rails/yii2-app.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-ai.git"
+			"url": "https://github.com/yii2rails/yii2-domain.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-ai.git"
+			"url": "https://github.com/yii2rails/yii2-extension.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-app.git"
+			"url": "https://github.com/yii2bundle/yii2-account.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-application-template.git"
+			"url": "https://github.com/yii2bundle/yii2-ai.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-article.git"
+			"url": "https://github.com/yii2bundle/yii2-ai.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-cleaner.git"
+			"url": "https://github.com/yii2bundle/yii2-application-template.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-dashboard.git"
+			"url": "https://github.com/yii2bundle/yii2-article.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-db.git"
+			"url": "https://github.com/yii2bundle/yii2-cleaner.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-domain.git"
+			"url": "https://github.com/yii2bundle/yii2-dashboard.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-encrypt.git"
+			"url": "https://github.com/yii2bundle/yii2-db.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-error.git"
+			"url": "https://github.com/yii2bundle/yii2-encrypt.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-extension.git"
+			"url": "https://github.com/yii2bundle/yii2-error.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-geo.git"
+			"url": "https://github.com/yii2bundle/yii2-geo.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-init.git"
+			"url": "https://github.com/yii2bundle/yii2-init.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-lang.git"
+			"url": "https://github.com/yii2bundle/yii2-lang.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-markdown.git"
+			"url": "https://github.com/yii2bundle/yii2-markdown.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-navigation.git"
+			"url": "https://github.com/yii2bundle/yii2-navigation.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-notify.git"
+			"url": "https://github.com/yii2bundle/yii2-notify.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-offline.git"
+			"url": "https://github.com/yii2bundle/yii2-offline.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-profile.git"
+			"url": "https://github.com/yii2bundle/yii2-profile.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-qr.git"
+			"url": "https://github.com/yii2bundle/yii2-qr.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-rbac.git"
+			"url": "https://github.com/yii2bundle/yii2-rbac.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-rest.git"
+			"url": "https://github.com/yii2bundle/yii2-rest.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-summary.git"
+			"url": "https://github.com/yii2bundle/yii2-summary.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-ubuntu-font.git"
+			"url": "https://github.com/yii2bundle/yii2-ubuntu-font.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-validator.git"
+			"url": "https://github.com/yii2bundle/yii2-validator.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-guide.git"
+			"url": "https://github.com/yii2bundle/yii2-guide.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-test.git"
+			"url": "https://github.com/yii2bundle/yii2-test.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-tool.git"
+			"url": "https://github.com/yii2bundle/yii2-tool.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/yii2-vendor.git"
+			"url": "https://github.com/yii2bundle/yii2-vendor.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/guide-misc.git"
+			"url": "https://github.com/yii2bundle/guide-misc.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2bundle/guide-team.git"
+			"url": "https://github.com/yii2bundle/guide-team.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2game/yii2-engine.git"
+			"url": "https://github.com/yii2game/yii2-engine.git"
 		},
 		{
 			"type": "git",
-			"url": "git@github.com:yii2game/yii2-evo.git"
+			"url": "https://github.com/yii2game/yii2-evo.git"
 		}
 	]
 }

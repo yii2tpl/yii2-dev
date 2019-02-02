@@ -41,7 +41,7 @@
 		"yii2tool/yii2-guide": "dev-master",
 		"yii2tool/yii2-tool": "dev-master",
 		"yii2tool/yii2-vendor": "dev-master",
-		
+		"yii2tool/yii2-restclient": "dev-master",
 		"yii2team/guide-misc": "dev-master",
 		"yii2team/guide-team": "dev-master",
 	
@@ -113,6 +113,11 @@
 			"url": "https://github.com/yii2tool/yii2-vendor.git"
 		},
 		
+		{
+			"type": "git",
+			"url": "https://github.com/yii2tool/yii2-restclient.git"
+		},
+
 		{
 			"type": "git",
 			"url": "https://github.com/yii2team/guide-misc.git"

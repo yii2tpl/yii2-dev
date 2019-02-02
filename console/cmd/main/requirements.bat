@@ -1,4 +1,5 @@
 @echo off
 cd ../../..
-php init --requirements
+cd vendor/yii2rails/yii2-app/bin
+php bin requirements/all
 pause

@@ -2,7 +2,7 @@
 
 return [
 	'rbac' => 'yii2lab\rbac\domain\Domain',
-	'account' => 'yii2module\account\domain\v2\helpers\Domain',
+	'account' => 'yii2module\account\domain\v2\Domain',
 	'lang' => 'yii2module\lang\domain\Domain',
 	'notify' => 'yii2lab\notify\domain\Domain',
 	'package' =>  'yii2rails\extension\package\domain\Domain',

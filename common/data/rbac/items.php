@@ -20,12 +20,7 @@ return [
             'oNotifyManage',
             'oEncryptManage',
             'oVendorManage',
-            'oNewsManage',
-            'oFileManage',
             'oGuideModify',
-            'oNewsNewsManage',
-            'oNewsCommentManage',
-            'oStorageManage',
         ],
     ],
     'rUser' => [
@@ -109,52 +104,8 @@ return [
         'type' => 2,
         'description' => 'Управление композер-пакетами',
     ],
-    'oNewsManage' => [
-        'type' => 2,
-        'description' => 'Управление новостями',
-    ],
-    'oFileManage' => [
-        'type' => 2,
-        'description' => 'Управление файлами',
-    ],
     'oGuideModify' => [
         'type' => 2,
         'description' => 'Редактирование руководства',
-    ],
-    'rNewsEditor' => [
-        'type' => 1,
-        'description' => 'Редактор новостей',
-        'children' => [
-            'oBackendAll',
-            'oNewsManage',
-            'oFileManage',
-        ],
-    ],
-    'oNewsNewsManage' => [
-        'type' => 2,
-        'description' => 'Управление новостями',
-    ],
-    'oNewsCommentManage' => [
-        'type' => 2,
-        'description' => 'Управление комментариями',
-    ],
-    'oStaffManager' => [
-        'type' => 2,
-        'description' => 'Управление корпоративной частью почты',
-    ],
-    'oSendCustomEmailMessage' => [
-        'type' => 2,
-        'description' => 'Отправлять письма от любого пользователя',
-    ],
-    'rMailServer' => [
-        'type' => 1,
-        'description' => 'Сервер почты',
-        'children' => [
-            'oSendCustomEmailMessage',
-        ],
-    ],
-    'oStorageManage' => [
-        'type' => 2,
-        'description' => 'Управление файловым хранилищем',
     ],
 ];

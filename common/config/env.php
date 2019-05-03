@@ -52,28 +52,7 @@ return [
 				'driver' => 'sqlite',
 				'dbname' => '@common/runtime/sqlite/main.db',
 				'map' => [
-					'user_assignment' => 'user_assignment',
-					'user_confirm' => 'user_confirm',
-					'user_person' => 'main.persons',
-					'users' => 'main.users',
-					'user_login' => 'main.users',
-					'portal_client' => 'portal.clients',
-					
-					'reference_book' => 'common.reference_books',
-					'reference_item' => 'common.reference_items',
-					'reference_item_localization' => 'common.localizations',
-					
 					'rest_collection' => 'rest',
-					
-					// 'migration' => 'news.migration',
-					'language' => 'language',
-					
-					'storage_file' => 'storage.file',
-					'storage_file_extension' => 'storage.file_extension',
-					'storage_file_type' => 'storage.file_type',
-					'storage_image' => 'storage.image',
-					'storage_service' => 'storage.service',
-					'storage_service_thumb' => 'storage.service_thumb',
 				],
 			],
 			'test' => [

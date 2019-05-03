@@ -9,7 +9,5 @@ return [
 	'vendor' =>  'yii2module\vendor\domain\Domain',
 	'navigation' => 'yii2lab\navigation\domain\Domain',
 	'jwt' => 'yii2rails\extension\jwt\Domain',
-	'summary' => 'yii2module\summary\domain\Domain',
 	'guide' => 'yii2module\guide\domain\Domain',
-	'geo' => 'yii2lab\geo\domain\Domain',
 ];

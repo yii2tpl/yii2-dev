@@ -1,0 +1,43 @@
+<?php
+
+return [
+	2 => [
+		'id' => 2,
+		'person_id' => 2,
+		'company_id' => 1,
+		'login' => 'tester1',
+		'password' => '$2y$10$VeTx5VTpb4AGoLRO6FfVxuNM5Xqbf7SgbC1LMvuMAi28RB9v3lPj.',
+		'password_status' => null,
+		'roles' => null,
+		'status' => null,
+		'remember_token' => null,
+		'created_at' => null,
+		'updated_at' => null,
+	],
+	3 => [
+		'id' => 3,
+		'person_id' => 3,
+		'company_id' => 1,
+		'login' => 'tester2',
+		'password' => '$2y$10$VeTx5VTpb4AGoLRO6FfVxuNM5Xqbf7SgbC1LMvuMAi28RB9v3lPj.',
+		'password_status' => null,
+		'roles' => null,
+		'status' => null,
+		'remember_token' => null,
+		'created_at' => null,
+		'updated_at' => null,
+	],
+	1 => [
+		'id' => 1,
+		'person_id' => 1,
+		'company_id' => 1,
+		'login' => 'admin',
+		'password' => '$2y$10$VeTx5VTpb4AGoLRO6FfVxuNM5Xqbf7SgbC1LMvuMAi28RB9v3lPj.',
+		'password_status' => null,
+		'roles' => null,
+		'status' => null,
+		'remember_token' => null,
+		'created_at' => null,
+		'updated_at' => null,
+	],
+];

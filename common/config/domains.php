@@ -2,7 +2,7 @@
 
 return [
 	'rbac' => 'yii2lab\rbac\domain\Domain',
-	'account' => 'yii2module\account\domain\v2\Domain',
+	'account' => 'yii2module\account\domain\v3\Domain',
 	'lang' => 'yii2module\lang\domain\Domain',
 	'notify' => 'yii2lab\notify\domain\Domain',
 	'package' =>  'yii2rails\extension\package\domain\Domain',
@@ -10,4 +10,5 @@ return [
 	'navigation' => 'yii2lab\navigation\domain\Domain',
 	'jwt' => 'yii2rails\extension\jwt\Domain',
 	'guide' => 'yii2module\guide\domain\Domain',
+	'geo' => 'yii2lab\geo\domain\Domain',
 ];

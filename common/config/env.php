@@ -52,7 +52,18 @@ return [
 				'driver' => 'sqlite',
 				'dbname' => '@common/runtime/sqlite/main.db',
 				'map' => [
-					'rest_collection' => 'rest',
+					'user_assignment' => 'user.assignment',
+					'user_confirm' => 'user.confirm',
+					'user_person' => 'user.person',
+					'users' => 'user.login',
+					'user_login' => 'user.login',
+					'user_activity' => 'user.activity',
+					'user_token' => 'user.token',
+					'user_contact' => 'user.contact',
+					'user_security' => 'user.security',
+					
+					'rest_collection' => 'common.rest',
+					'language' => 'common.language',
 				],
 			],
 			'test' => [
@@ -181,8 +192,8 @@ return [
 					'@vendor/yii2tool/yii2-restclient/src/domain/migrations',
 					'@vendor/yii2bundle/yii2-lang/src/domain/migrations',
 					//'@vendor/yii2bundle/yii2-geo/src/domain/migrations',
-					'@vendor/yii2module/yii2-account/src/domain/v2/migrations',
-					'@vendor/yiisoft/yii2/log/migrations'
+					'@vendor/yii2bundle/yii2-account/src/domain/v3/migrations',
+					'@vendor/yiisoft/yii2/log/migrations',
 				],
 				'scan' => [
 					'@domain',

@@ -11,6 +11,16 @@
 		"yii2rails/yii2-app": "dev-master",
 		"yii2rails/yii2-domain": "dev-master",
 		"yii2rails/yii2-extension": "dev-master",
+
+		"yii2extension/yii2-rest": "dev-master",
+		"yii2extension/yii2-qr": "dev-master",
+		"yii2extension/yii2-navigation": "dev-master",
+		"yii2extension/yii2-lang": "dev-master",
+		"yii2extension/yii2-error": "dev-master",
+		"yii2extension/yii2-encrypt": "dev-master",
+		"yii2extension/yii2-db": "dev-master",
+		"yii2extension/yii2-application": "dev-master",
+
 		"yii2tool/yii2-cleaner": "dev-master",
 		"yii2tool/yii2-offline": "dev-master",
 		"yii2tool/yii2-init": "dev-master",

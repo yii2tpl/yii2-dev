@@ -34,21 +34,20 @@ class RegistrationTest extends BaseActiveApiTest
         NotifyTestHelper::cleanSms();
     }
 	
-	public function testRequestActivationCodeExistsPhone() {
-		//d('testRequestActivationCode');
+	public function getLastPhone()
+	{
 		$phone = RegistrationTestHelper::getlastPhone();
-		
 		CurrentPhoneTestHelper::set($phone);
+	}
+	
+	public function testRequestActivationCodeExistsPhone() {
 		$this->createEntityUnProcessible('registration/request-activation-code', [
 			'phone' => self::EXISTS_PHONE,
 		], ['phone']);
 	}
  
 	public function testRequestActivationCode() {
-    	//d('testRequestActivationCode');
         $phone = RegistrationTestHelper::getlastPhone();
-        
-        CurrentPhoneTestHelper::set($phone);
         $this->createEntity('registration/request-activation-code', [
             'phone' => $phone,
         ]);
@@ -96,7 +95,6 @@ class RegistrationTest extends BaseActiveApiTest
 			'middle_name' => 'Middle',
 			'birthday' => '2018-03-20',
 		], ['login']);
-		//$this->checkAuth($phone, self::PASSWORD);
 	}
     
     public function testCreateAccount() {

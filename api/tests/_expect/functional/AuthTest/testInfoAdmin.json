@@ -1,0 +1,14 @@
+{
+	"id": 1,
+	"login": "admin",
+	"status": 0,
+	"roles": [
+		"rAdministrator"
+	],
+	"token": null,
+	"created_at": "2019-02-22T17:25:10+0000",
+	"person_id": 1,
+	"company_id": 1,
+	"person": null,
+	"company": null
+}

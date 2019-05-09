@@ -1,0 +1,12 @@
+{
+	"id": 2,
+	"first_name": "Tester 1",
+	"last_name": "Tester",
+	"middle_name": null,
+	"email": "tester1@yuwert.kz",
+	"phone": "76669109296",
+	"birthday": "2018-01-07",
+	"worker": null,
+	"user": null,
+	"created_at": "2019-02-22T17:25:10+0000"
+}

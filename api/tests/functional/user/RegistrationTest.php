@@ -82,7 +82,7 @@ class RegistrationTest extends BaseActiveApiTest
         ], ['phone']);
     }
 	
-	public function testCreateAccountExistsLogin() {
+	/*public function testCreateAccountExistsLogin() {
 		$phone = CurrentPhoneTestHelper::get();
 		$code = NotifyTestHelper::getActivationCodeByPhone($phone);
 		$this->createEntityUnProcessible('registration/create-account', [
@@ -95,7 +95,7 @@ class RegistrationTest extends BaseActiveApiTest
 			'middle_name' => 'Middle',
 			'birthday' => '2018-03-20',
 		], ['login']);
-	}
+	}*/
     
     public function testCreateAccount() {
         $phone = CurrentPhoneTestHelper::get();

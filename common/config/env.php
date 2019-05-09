@@ -56,7 +56,7 @@ return [
 					'user_confirm' => 'user.confirm',
 					'user_person' => 'user.person',
 					'users' => 'user.login',
-					'user_login' => 'user.login',
+					'user_identity' => 'user.identity',
 					'user_activity' => 'user.activity',
 					'user_token' => 'user.token',
 					'user_contact' => 'user.contact',

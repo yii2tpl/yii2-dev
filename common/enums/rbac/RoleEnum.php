@@ -36,10 +36,7 @@ class RoleEnum extends BaseEnum {
 	// Разработчик
 	const DEVELOPER = 'rDeveloper';
 
-	// Редактор новостей
-	const NEWS_EDITOR = 'rNewsEditor';
-
-	// Сервер почты
-	const MAIL_SERVER = 'rMailServer';
+	// Тестировщик
+	const TESTER = 'rTester';
 
 }

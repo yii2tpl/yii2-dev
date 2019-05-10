@@ -48,28 +48,7 @@ class PermissionEnum extends BaseEnum {
 	// Управление композер-пакетами
 	const VENDOR_MANAGE = 'oVendorManage';
 
-	// Управление новостями
-	const NEWS_MANAGE = 'oNewsManage';
-
-	// Управление файлами
-	const FILE_MANAGE = 'oFileManage';
-
 	// Редактирование руководства
 	const GUIDE_MODIFY = 'oGuideModify';
-
-	// Управление новостями
-	const NEWS_NEWS_MANAGE = 'oNewsNewsManage';
-
-	// Управление комментариями
-	const NEWS_COMMENT_MANAGE = 'oNewsCommentManage';
-
-	// Управление корпоративной частью почты
-	const STAFF_MANAGER = 'oStaffManager';
-
-	// Отправлять письма от любого пользователя
-	const SEND_CUSTOM_EMAIL_MESSAGE = 'oSendCustomEmailMessage';
-
-	// Управление файловым хранилищем
-	const STORAGE_MANAGE = 'oStorageManage';
 
 }

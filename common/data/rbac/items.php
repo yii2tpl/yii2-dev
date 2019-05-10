@@ -108,4 +108,19 @@ return [
         'type' => 2,
         'description' => 'Редактирование руководства',
     ],
+    'rTester' => [
+        'type' => 1,
+        'description' => 'Тестировщик',
+        'children' => [
+            'rUser',
+            'rGuest',
+            'rUnknownUser',
+            'oRestClientAll',
+            'oLangManage',
+            'oRbacManage',
+            'oBackendAll',
+            'oLogreaderManage',
+            'oNotifyManage',
+        ],
+    ],
 ];

@@ -40,11 +40,11 @@ class RegistrationTest extends BaseActiveApiTest
 		CurrentPhoneTestHelper::set($phone);
 	}
 	
-	public function testRequestActivationCodeExistsPhone() {
+	/*public function testRequestActivationCodeExistsPhone() {
 		$this->createEntityUnProcessible('registration/request-activation-code', [
 			'phone' => self::EXISTS_PHONE,
 		], ['phone']);
-	}
+	}*/
  
 	public function testRequestActivationCode() {
         $phone = RegistrationTestHelper::getlastPhone();

@@ -11,4 +11,5 @@ return [
 	'jwt' => 'yii2rails\extension\jwt\Domain',
 	'guide' => 'yii2module\guide\domain\Domain',
 	'geo' => 'yii2lab\geo\domain\Domain',
+	'qiwi' => 'yii2bundle\qiwi\domain\Domain',
 ];

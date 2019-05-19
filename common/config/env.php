@@ -62,6 +62,19 @@ return [
 					'user_contact' => 'user.contact',
 					'user_security' => 'user.security',
 					
+					'geo_country' => 'geo.country',
+					'geo_region' => 'geo.region',
+					'geo_city' => 'geo.city',
+					'geo_currency' => 'geo.currency',
+					'geo_currency_value' => 'geo.currency_value',
+					
+					'qiwi_account' => 'qiwi.account',
+					'qiwi_history' => 'qiwi.history',
+					'qiwi_provider' => 'qiwi.provider',
+					'qiwi_category' => 'qiwi.category',
+					'qiwi_country' => 'qiwi.country',
+					'qiwi_person' => 'qiwi.person',
+					
 					'rest_collection' => 'common.rest',
 					'language' => 'common.language',
 				],
@@ -188,12 +201,13 @@ return [
 			'migration' => [
 				'class' => 'yii2lab\db\domain\filters\migration\SetPath',
 				'path' => [
-					'@vendor/yii2bundle/yii2-rbac/src/domain/migrations',
+					'@vendor/yii2rails/yii2-extension/src/qiwi/migrations',
+					/*'@vendor/yii2bundle/yii2-rbac/src/domain/migrations',
 					'@vendor/yii2tool/yii2-restclient/src/domain/migrations',
 					'@vendor/yii2bundle/yii2-lang/src/domain/migrations',
-					//'@vendor/yii2bundle/yii2-geo/src/domain/migrations',
+					'@vendor/yii2bundle/yii2-geo/src/domain/migrations',
 					'@vendor/yii2bundle/yii2-account/src/domain/v3/migrations',
-					'@vendor/yiisoft/yii2/log/migrations',
+					'@vendor/yiisoft/yii2/log/migrations',*/
 				],
 				'scan' => [
 					'@domain',

@@ -44,6 +44,8 @@
 		"yii2bundle/yii2-summary": "dev-master",
 		"yii2bundle/yii2-ubuntu-font": "dev-master",
 		"yii2bundle/yii2-telegram": "dev-master",
+		"yii2bundle/yii2-qiwi": "dev-master",
+
 		"yii2game/yii2-engine": "dev-master",
 		"yii2game/yii2-evo": "dev-master"
 	},
@@ -225,6 +227,10 @@
 		{
 			"type": "git",
 			"url": "https://github.com/yii2bundle/yii2-telegram.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/yii2bundle/yii2-qiwi.git"
 		},
 		{
 			"type": "git",

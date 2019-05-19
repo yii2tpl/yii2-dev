@@ -7,6 +7,7 @@ $config = [
 	'user' => 'yii2module\account\module\Module',
 	'welcome' => 'yii2module\dashboard\web\Module',
     'guide' => 'yii2module\guide\module\Module',
+	'qiwi' => 'yii2bundle\qiwi\web\Module',
 ];
 
 if(YII_ENV_DEV) {

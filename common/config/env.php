@@ -201,13 +201,13 @@ return [
 			'migration' => [
 				'class' => 'yii2lab\db\domain\filters\migration\SetPath',
 				'path' => [
-					'@vendor/yii2rails/yii2-extension/src/qiwi/migrations',
-					/*'@vendor/yii2bundle/yii2-rbac/src/domain/migrations',
+					'@vendor/yii2bundle/yii2-qiwi/src/domain/migrations',
+					'@vendor/yii2bundle/yii2-rbac/src/domain/migrations',
 					'@vendor/yii2tool/yii2-restclient/src/domain/migrations',
 					'@vendor/yii2bundle/yii2-lang/src/domain/migrations',
 					'@vendor/yii2bundle/yii2-geo/src/domain/migrations',
 					'@vendor/yii2bundle/yii2-account/src/domain/v3/migrations',
-					'@vendor/yiisoft/yii2/log/migrations',*/
+					'@vendor/yiisoft/yii2/log/migrations',
 				],
 				'scan' => [
 					'@domain',

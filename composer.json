@@ -226,14 +226,6 @@
 		},
 		{
 			"type": "git",
-			"url": "https://github.com/yii2bundle/yii2-telegram.git"
-		},
-		{
-			"type": "git",
-			"url": "https://github.com/yii2bundle/yii2-qiwi.git"
-		},
-		{
-			"type": "git",
 			"url": "https://github.com/yii2game/yii2-engine.git"
 		},
 		{
